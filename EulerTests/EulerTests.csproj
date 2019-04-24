@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Project Euler\Project Euler.csproj" />
+      <ProjectReference Include="..\ProjectEuler\ProjectEuler.csproj" />
     </ItemGroup>
 
 </Project>

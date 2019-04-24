@@ -1,19 +1,20 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/dbusha/repos/ProjectEuler/EulerRunner/EulerRunner.csproj",
+    "projectUniqueName": "C:\\source\\ProjectEuler\\EulerRunner\\EulerRunner.csproj",
     "projectName": "EulerRunner",
-    "projectPath": "/Users/dbusha/repos/ProjectEuler/EulerRunner/EulerRunner.csproj",
-    "outputPath": "/Users/dbusha/repos/ProjectEuler/EulerRunner/obj/",
+    "projectPath": "C:\\source\\ProjectEuler\\EulerRunner\\EulerRunner.csproj",
+    "outputPath": "C:\\source\\ProjectEuler\\EulerRunner\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.0"
     ],
     "sources": {
-      "https://www.nuget.org/api/v2/": {}
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
       "netcoreapp2.0": {

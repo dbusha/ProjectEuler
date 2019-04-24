@@ -1,12 +1,13 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 
 namespace ProjectEuler
 {
     public class Problem5 : RunProblem<long>
     {
-        int UpperBound = 10;
+        int TopOfRange = 20;
         public override long Run(int solutionNumber)
         {
             switch (solutionNumber)
@@ -20,76 +21,77 @@ namespace ProjectEuler
         private long Solution1()
         {
             var range = new HashSet<int>();
-            for (int i = UpperBound; i > 1; i--)
+            for (int i = TopOfRange; i > 1; i--)
             {
-                var factors = GetFactors(i);
-                if (factors.All(f => f == factors.First()))
-                    range.Add(i);
-                else
-                    foreach (var factor in factors)
-                        range.Add(factor);
-                
+                var factors = GetPrimeFactors(i).ToArray();
+                foreach (var f in factors.Where(f => f != 1))
+                    range.Add(f);
             }
 
-            Console.WriteLine(string.Join(",", range.OrderBy(i => i)));
+            var results = new List<int>();
+            foreach (var number in range.ToArray())
+            {
+                var i = number;
+                var result = 1;
+                while (i * result < TopOfRange)
+                    result *= i;
+
+                results.Add(result);
+            }
+            
+
+
+            Trace.WriteLine(string.Join(",", results.OrderBy(i => i)));
             long value = 1;
-            foreach (var item in range)
+            foreach (var item in results)
                 value *= item;
-            Console.WriteLine(value);
+            Trace.WriteLine(value);
             return value;
         }
-
-        private bool IsPerfectSquare(int value)
-        {
-            var temp = Math.Sqrt(value);
-            return Math.Abs(temp % ((int) temp)) < .001;
-        }
         
 
-        private int[] GetFactors(int value)
+        public IEnumerable<int> GetPrimeFactors(int value)
         {
-            for (var i = value/2; i > 1; i--)
-            {
-                for (var j = i; j > 1; j--)
-                {
-                    if (value == (i * j))
-                        return GetFactors(i).Union(GetFactors(j)).ToArray();
-                }
-            }
-
-            return new int[]{ value };
-        }
-
-
-        private bool IsPrime(int value)
-        {
-            for (int i = (int)Math.Sqrt(value); i > 1; i--)
+            var factors = new List<int>();
+            for (var i = value-1; i > 1; i--)
             {
                 if (value % i == 0)
-                    return false;
+                    factors.AddRange(GetPrimeFactors(i));
             }
 
-            return true;
+            if (!factors.Any())
+                factors.Add(value);
+
+            return factors;
         }
         
-
 
         private int Solution2()
         {
-            int i = 0;
-            while (true)
+            int gcm = 1;
+            for (int i = 2; i <= TopOfRange; i++)
+                gcm *= i;
+
+
+            var counter = TopOfRange;
+            while (counter < gcm)
             {
-                for (int j = UpperBound; j > 1; j++)
+                var matchFound = true;
+                for (var i = 2; i <= TopOfRange; i++)
                 {
-                    if (i % j != 0)
+                    if (counter % i != 0)
+                    {
+                        matchFound = false;
                         break;
-                    if (j == 2)
-                        return i;
+                    }
                 }
 
-                i++;
+                if (matchFound)
+                    return counter;
+                
+                counter++;
             }
-            return 0;
+            return gcm;
         }
     }
 }

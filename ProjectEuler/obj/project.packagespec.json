@@ -1,19 +1,20 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/dbusha/repos/ProjectEuler/ProjectEuler/ProjectEuler.csproj",
+    "projectUniqueName": "C:\\source\\ProjectEuler\\ProjectEuler\\ProjectEuler.csproj",
     "projectName": "ProjectEuler",
-    "projectPath": "/Users/dbusha/repos/ProjectEuler/ProjectEuler/ProjectEuler.csproj",
-    "outputPath": "/Users/dbusha/repos/ProjectEuler/ProjectEuler/obj/",
+    "projectPath": "C:\\source\\ProjectEuler\\ProjectEuler\\ProjectEuler.csproj",
+    "outputPath": "C:\\source\\ProjectEuler\\ProjectEuler\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netstandard2.0"
     ],
     "sources": {
-      "https://www.nuget.org/api/v2/": {}
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
       "netstandard2.0": {
@@ -32,7 +33,7 @@
         "NETStandard.Library": {
           "suppressParent": "All",
           "target": "Package",
-          "version": "[2.0.3, )",
+          "version": "[2.0.1, )",
           "autoReferenced": true
         }
       },

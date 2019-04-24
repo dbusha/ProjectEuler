@@ -48,9 +48,19 @@ namespace EulerTests
         [Fact]
         public void Test5()
         {
+            
             var problem = new Problem5();
             var result = problem.Run();
             Assert.Equal(2520, result);
+        }
+
+        
+        [Fact]
+        public void Factoring()
+        {
+            var p = new Problem5();
+            var result = p.GetPrimeFactors(20);
+            Assert.NotNull(result);
         }
     }
 }

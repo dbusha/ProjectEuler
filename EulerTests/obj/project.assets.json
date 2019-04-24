@@ -1675,23 +1675,34 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "ProjectEuler/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ProjectEuler.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProjectEuler.dll": {}
+        }
       }
     }
   },
   "libraries": {
     "Microsoft.CodeCoverage/1.0.3": {
-      "sha512": "5KfX12XPfvBomjrZv9nCBfQ6lhZdroVxXvGnY6MqzG83bjqdq6SQ3xxJFdPgHv6oli83M9oNhZlynYehjmboUg==",
+      "sha512": "CmE+u43TKfA4dLkle2NwArwZ9qAvPDC/8jzTDGIxdAI6+5lU8JKm9wRF8YICz5RMtLe+jzMmPm0/r1Awo6zoiQ==",
       "type": "package",
       "path": "microsoft.codecoverage/1.0.3",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/netstandard1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
         "microsoft.codecoverage.1.0.3.nupkg.sha512",
         "microsoft.codecoverage.nuspec"
       ]
     },
     "Microsoft.CSharp/4.0.1": {
-      "sha512": "08HDmm0grI6L374EreOt7nxRq895sRtD9OI9ChvqHpVFyooOLEXah4AqPMc5qCfUUdN+JmAb9Ef1/kKP5OzPKg==",
+      "sha512": "5+CnkE9JtKUPP1wA+T95R9kht6UY7qeygcsVR9dPXtdWfeK9UTAC3eLqTtyt/0RVWOqB788FLgOGLfTeve96iQ==",
       "type": "package",
       "path": "microsoft.csharp/4.0.1",
       "files": [
@@ -1749,11 +1760,12 @@
       ]
     },
     "Microsoft.DotNet.PlatformAbstractions/1.0.3": {
-      "sha512": "rF92Gp5L2asYrFNf0cKNBxzzGLh1krHuj6TRDk9wdjN2qdvJLaNYOn1s9oYkMlptYX436KiEFqxhLB+I5veXvQ==",
+      "sha512": "+AheRvuidpztC3mr2PukG8bjKqtzwGKZznZTv2KVILnqvauFkTBrewgUvUs+FYSQe0uEyFJEAVsBC5G+tVRLAw==",
       "type": "package",
       "path": "microsoft.dotnet.platformabstractions/1.0.3",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/.DS_Store",
         "lib/net451/Microsoft.DotNet.PlatformAbstractions.dll",
         "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll",
@@ -1762,11 +1774,12 @@
       ]
     },
     "Microsoft.Extensions.DependencyModel/1.0.3": {
-      "sha512": "Z3o19EnheuegmvgpCzwoSlnCWxYA6qIUhvKJ7ifKHHvU7U+oYR/gliLiL3LVYOOeGMEEzkpJ5W67sOcXizGtlw==",
+      "sha512": "oj8P60y2Atw9GBm+6y4o8cTkjkgUZC197TH4GmsAkSKT1/x+iPIy8M5udgAa0UofLvpS0aCB/FfgCqgE11m3gA==",
       "type": "package",
       "path": "microsoft.extensions.dependencymodel/1.0.3",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/.DS_Store",
         "lib/net451/Microsoft.Extensions.DependencyModel.dll",
         "lib/netstandard1.3/Microsoft.Extensions.DependencyModel.dll",
@@ -1776,11 +1789,12 @@
       ]
     },
     "Microsoft.NET.Test.Sdk/15.5.0": {
-      "sha512": "YmwFl/E8IWudzvOkKnPjiCA8w3Glremm1oOlW9tAbYMQQq+ZS5SCW1K+7vXeJxv7ixZPNJrGsEyGONr33Qs6UQ==",
+      "sha512": "EBihw2LvWxjTCld8033/2viKuQ/34T0I0Ml6Gp1rYPozUmc391uYktm+0uTaXRan4rV14wez+lvNthF5Lar0sg==",
       "type": "package",
       "path": "microsoft.net.test.sdk/15.5.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "build/net45/Microsoft.Net.Test.Sdk.props",
         "build/net45/Microsoft.Net.Test.Sdk.targets",
         "build/netcoreapp1.0/Microsoft.Net.Test.Sdk.props",
@@ -2140,11 +2154,12 @@
       ]
     },
     "Microsoft.TestPlatform.ObjectModel/15.5.0": {
-      "sha512": "Z0Qaw0APdP0kV2fJivDX4m8FkoS9y7Ksb+PzGQZMAoVJoeMhh+taFu/zN+JfWA9Xe8Lt5MrHssK8cV7NPHdsrQ==",
+      "sha512": "GAIcZdVBkSTr1lc0DJIgKt6nd3T1TJHzxt81uivX41daBURnf6k+M1V1bz3IhapLdwjuJJ1dGKCkoZPEwthpew==",
       "type": "package",
       "path": "microsoft.testplatform.objectmodel/15.5.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net451/Microsoft.TestPlatform.CoreUtilities.dll",
         "lib/net451/Microsoft.TestPlatform.PlatformAbstractions.dll",
         "lib/net451/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll",
@@ -2211,11 +2226,12 @@
       ]
     },
     "Microsoft.TestPlatform.TestHost/15.5.0": {
-      "sha512": "S4QJOWL3UNoE9in8IdJFFGiv3smk+SxuCnMVpZeG0nTYaWpp8uJ9dsBZeh3iCseIkjGJJuTXUSW3P0sRZG34DA==",
+      "sha512": "/rpf5pUKAO+44Xc2Ms9jXfgcGA8tLad86QPvgZX9mxwm3+WYRHUHbnSDgmgj0qpuAwQ9vUQM5t5PIa1KO5crKA==",
       "type": "package",
       "path": "microsoft.testplatform.testhost/15.5.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "build/uap10.0/Microsoft.TestPlatform.TestHost.props",
         "build/uap10.0/Microsoft.TestPlatform.TestHost.targets",
@@ -2356,13 +2372,11 @@
       ]
     },
     "Microsoft.Win32.Primitives/4.0.1": {
-      "sha512": "fQnBHO9DgcmkC9dYSJoBqo6sH1VJwJprUHh8F3hbcRlxiQiBUuTntdk8tUwV490OqC2kQUrinGwZyQHTieuXRA==",
+      "sha512": "XKk490zhpvIXzv2D3tqNgRY1zgQeLnJ2hdNJUeXaa5v/C6QiaTNDkc/HTCAQeTaxYA4CkXdhWUIa0G4ElRTADA==",
       "type": "package",
       "path": "microsoft.win32.primitives/4.0.1",
       "files": [
         ".nupkg.metadata",
-        "Microsoft.Win32.Primitives.4.0.1.nupkg.sha512",
-        "Microsoft.Win32.Primitives.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2372,6 +2386,8 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
+        "microsoft.win32.primitives.4.0.1.nupkg.sha512",
+        "microsoft.win32.primitives.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
         "ref/net46/Microsoft.Win32.Primitives.dll",
@@ -2393,7 +2409,7 @@
       ]
     },
     "Microsoft.Win32.Registry/4.0.0": {
-      "sha512": "0juxi0LIH5aakogqCBnnq1ORRQRtW/W1zOAC9iMxOELb0bY0m26oKUXWjI1CMOeHxr+KTPKHZVR10sWRwbslig==",
+      "sha512": "oshcyJIjdBD8iOX4lDFIYWbzVVaXY+BOIVrd8kNaZqkMvT/yOtVFtC1rMkUgWcmm5TiCFF+joURCY54gVRkxnA==",
       "type": "package",
       "path": "microsoft.win32.registry/4.0.0",
       "files": [
@@ -2551,7 +2567,7 @@
       ]
     },
     "Newtonsoft.Json/9.0.1": {
-      "sha512": "//bjL10hhjzIUZKt7E7FRYxgio/9zI984NsEWKqibeZECLT2LwjI/W/elsVGUaFA9rcjljraOEja1sla1M+Tfg==",
+      "sha512": "SiP7rMMJzt+G1XI6hAV13+pWMfWS/PqaKymeEOfIau0wZphWGMt4qNhlY9P/XhT7OIAmwkdQhsLbTu8JuN+k4A==",
       "type": "package",
       "path": "newtonsoft.json/9.0.1",
       "hasTools": true,
@@ -2577,7 +2593,7 @@
       ]
     },
     "runtime.native.System/4.0.0": {
-      "sha512": "QfS/nQI7k/BLgmLrw7qm7YBoULEvgWnPI+cYsbfCVFTW8Aj+i8JhccxcFMu1RWms0YZzF+UHguNBK4Qn89e2Sg==",
+      "sha512": "x2ZyYbSWyrhUyU50+crxpIqjL0y+fKyujXfoMWatqSw8Za5iQ/TOGE32GVg8gx2EYR5o7zENHGQinUgbb1QdYg==",
       "type": "package",
       "path": "runtime.native.system/4.0.0",
       "files": [
@@ -2585,8 +2601,8 @@
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
-        "runtime.native.System.4.0.0.nupkg.sha512",
-        "runtime.native.System.nuspec"
+        "runtime.native.system.4.0.0.nupkg.sha512",
+        "runtime.native.system.nuspec"
       ]
     },
     "System.AppContext/4.1.0": {
@@ -2778,7 +2794,7 @@
       ]
     },
     "System.Collections.Immutable/1.2.0": {
-      "sha512": "o8kYlIfGkKkmlJKB087iurMs4eLF3ZJXZTY5Lv9vrZw6Jkk34Coe9g9y3B1pYt1zoPtpargy8r3x+0QiQmsGjA==",
+      "sha512": "woTp3KwHaF17/DD+b4a3iysiz9lbrBXJMhJr7NsyXrLz9PvfAyEGMrDUN3hsqIAtEzC14UnUIFRsmNgghpn18w==",
       "type": "package",
       "path": "system.collections.immutable/1.2.0",
       "files": [
@@ -2794,7 +2810,7 @@
       ]
     },
     "System.Collections.NonGeneric/4.0.1": {
-      "sha512": "fN5S/WQ6mw8KQCheSn1CWljFm+W36RUJ1ZdFcg4VBhkKjuuCjHf8K8YQytRQyJD/mHxpdMEQ2SJNq+UaCJ611A==",
+      "sha512": "JlGv0p1jm8/QYG7gZmoPYg3pT6AxM8WF1ZKTMWjMbm82u8yQaGRpuPtrUllj12UqoIeS1Gj7jhg6TJ3/Q6Yk8g==",
       "type": "package",
       "path": "system.collections.nongeneric/4.0.1",
       "files": [
@@ -2832,7 +2848,7 @@
       ]
     },
     "System.Collections.Specialized/4.0.1": {
-      "sha512": "bCIJ54p4MJCaQClYsYD6hsVVgtjhS5tXdshoNGONFfNOfiZNC83lA8MOYPEi97E+BYkFaGVY8lVobGQb8d+ehw==",
+      "sha512": "YP+FdPbJoFqvrjkB0lB/7lvckn33e1jU+isd750Gx6fypVrT0ADwbeTrHOJJx2WEtYPHa5cwe+Sp0dhyIViNIA==",
       "type": "package",
       "path": "system.collections.specialized/4.0.1",
       "files": [
@@ -2870,7 +2886,7 @@
       ]
     },
     "System.ComponentModel/4.0.1": {
-      "sha512": "EJ8gGqQjUmYPC5T1JCCxba5NmWYBu/mLQfv6Cf0tPQFMa4iA8RWlyd6oUngRyO37mJkZEi67KaizSTepcJxP5A==",
+      "sha512": "+BciVLCtqkJDKJ+UDcavWIZ3thqBD7tGKb77VhVo7AyzD1lEd+m0WP+XGVdd7To8MuLoFK8p3ccXc+/uyWpnHw==",
       "type": "package",
       "path": "system.componentmodel/4.0.1",
       "files": [
@@ -2997,7 +3013,7 @@
       ]
     },
     "System.ComponentModel.Primitives/4.1.0": {
-      "sha512": "UVyJTIME6sTJtgfEbPDO/YsGwEV8BexMANVFInRHi3/8m8bSKrcLZzhrHlA6AEjyUF1b/rZWwTut7/wS7jHpQQ==",
+      "sha512": "r/51EMEqeEgCAfKvTx+AkzsC8m0Nn/vrnNYq0dBvkh1+xkeqLN6BOq950G+rbxWzmuwuAIEpxRVcwTrPO+PP4g==",
       "type": "package",
       "path": "system.componentmodel.primitives/4.1.0",
       "files": [
@@ -3035,7 +3051,7 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.1.0": {
-      "sha512": "7PckTcP/Fg9I6mvdRd++WtlFTgOTK9X+b8UrnNWbHOEI2Xd3cSIots7x3/yq49gkAFCPcvmULghb64N6ud4wgA==",
+      "sha512": "R9OkWkCwdYsRUYy/DAe13reSl3I6d8aZ2kH7MCgEZ1g4OOsYIap0r+BUSEo56yBujz2dea3Mgupa1HYy0uNjxw==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.1.0",
       "files": [
@@ -3154,7 +3170,7 @@
       ]
     },
     "System.Diagnostics.Process/4.1.0": {
-      "sha512": "x4vJ/k+LY4PeKxoRWVTTkX7E8gXVYoIHcW0fBsuY8OWp/G2RwtYvTL7SzbvI84a+1Mrx9kmSJxT2DsoihNnuyw==",
+      "sha512": "3JZOdnkcSBI00QKZcYuqlKnpn8RvdMP3tiayqull1DIzai83NPUHl0EvFH4IcVzfEdNyv+JaSlISq/yR8ACeBw==",
       "type": "package",
       "path": "system.diagnostics.process/4.1.0",
       "files": [
@@ -3210,11 +3226,12 @@
       ]
     },
     "System.Diagnostics.TextWriterTraceListener/4.0.0": {
-      "sha512": "w36Dr8yKy8xP150qPANe7Td+/zOI3G62ImRcHDIEW+oUXUuTKZHd4DHmqRx5+x8RXd85v3tXd1uhNTfsr+yxjA==",
+      "sha512": "oRsXCz76GDDMrwjMjH6keR9erFIofhGaIMc2d4NykI4rdBEuUP5ZswYA30LGPdyCK7DV4bMBEJL3nJFyAJoS/g==",
       "type": "package",
       "path": "system.diagnostics.textwritertracelistener/4.0.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3304,12 +3321,11 @@
       ]
     },
     "System.Diagnostics.TraceSource/4.0.0": {
-      "sha512": "q5bGzzvXVi+dIMiPWRhXZV7r+Os3TEOuRW5LHsAUDGpqJHol8XiLokVpsgAfPqHHNkyx1bbv5lRZqRkRrGZKxQ==",
+      "sha512": "6WVCczFZKXwpWpzd/iJkYnsmWTSFFiU24Xx/YdHXBcu+nFI/ehTgeqdJQFbtRPzbrO3KtRNjvkhtj4t5/WwWsA==",
       "type": "package",
       "path": "system.diagnostics.tracesource/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3434,7 +3450,7 @@
       ]
     },
     "System.Dynamic.Runtime/4.0.11": {
-      "sha512": "cVx5y59eyDAXMpK+8OMUjXZbXb0zu8PkeJ3uQtfoToTmxkarq8oCpXK4N+h+aMnOBnioBi+Nsa6a8nORbQJ0uQ==",
+      "sha512": "j1wuVX1NS7NGVc1QFDhGXZL/MtaKppeFDqZDM35H/wjj9l51QROhAQlHlJbB7SDaWKx8xOgms/PNf+aves7BRA==",
       "type": "package",
       "path": "system.dynamic.runtime/4.0.11",
       "files": [
@@ -3571,13 +3587,11 @@
       ]
     },
     "System.Globalization.Extensions/4.0.1": {
-      "sha512": "KKo23iKeOaIg61SSXwjANN7QYDr/3op3OWGGzDzz7mypx0Za0fZSeG0l6cco8Ntp8YMYkIQcAqlk8yhm5/Uhcg==",
+      "sha512": "GzKvEtIrYjXxspHs+UTi29/U0eVabGjaSqKa9wL4rsmjBb5twUeQuD3MdRqzisHqlIK+Oa2pIcLr6oeOL3y/Rg==",
       "type": "package",
       "path": "system.globalization.extensions/4.0.1",
       "files": [
         ".nupkg.metadata",
-        "System.Globalization.Extensions.4.0.1.nupkg.sha512",
-        "System.Globalization.Extensions.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3607,7 +3621,9 @@
         "ref/xamarinwatchos10/_._",
         "runtimes/unix/lib/netstandard1.3/System.Globalization.Extensions.dll",
         "runtimes/win/lib/net46/System.Globalization.Extensions.dll",
-        "runtimes/win/lib/netstandard1.3/System.Globalization.Extensions.dll"
+        "runtimes/win/lib/netstandard1.3/System.Globalization.Extensions.dll",
+        "system.globalization.extensions.4.0.1.nupkg.sha512",
+        "system.globalization.extensions.nuspec"
       ]
     },
     "System.IO/4.1.0": {
@@ -3837,13 +3853,11 @@
       ]
     },
     "System.Linq.Expressions/4.1.0": {
-      "sha512": "I+y02iqkgmCAyfbqOmSDOgqdZQ5tTj80Akm5BPSS8EeB0VGWdy6X1KCoYe8Pk6pwDoAKZUOdLVxnTJcExiv5zw==",
+      "sha512": "NZEUBPXk2YmXaEpIs8bpH0LXhBTKQyrkQW8jHG1sU2blHZoPejIoHDqJzOJHcBKNBNzpt+RxL0qjV1p+fA7Jag==",
       "type": "package",
       "path": "system.linq.expressions/4.1.0",
       "files": [
         ".nupkg.metadata",
-        "System.Linq.Expressions.4.1.0.nupkg.sha512",
-        "System.Linq.Expressions.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3916,17 +3930,17 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "runtimes/aot/lib/netcore50/System.Linq.Expressions.dll"
+        "runtimes/aot/lib/netcore50/System.Linq.Expressions.dll",
+        "system.linq.expressions.4.1.0.nupkg.sha512",
+        "system.linq.expressions.nuspec"
       ]
     },
     "System.ObjectModel/4.0.12": {
-      "sha512": "tAgJM1xt3ytyMoW4qn4wIqgJYm7L7TShRZG4+Q4Qsi2PCcj96pXN7nRywS9KkB3p/xDUjc2HSwP9SROyPYDYKQ==",
+      "sha512": "jwzBYFWv5fuGHXl0NTYgWe3BABMueO+QmXoNtblzYE2Q/vZhUn0SVJOQFGTVaAQ0GTAug+CN5EVK3NwjTl30KQ==",
       "type": "package",
       "path": "system.objectmodel/4.0.12",
       "files": [
         ".nupkg.metadata",
-        "System.ObjectModel.4.0.12.nupkg.sha512",
-        "System.ObjectModel.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3985,7 +3999,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.objectmodel.4.0.12.nupkg.sha512",
+        "system.objectmodel.nuspec"
       ]
     },
     "System.Private.DataContractSerialization/4.1.1": {
@@ -4085,13 +4101,11 @@
       ]
     },
     "System.Reflection.Emit/4.0.1": {
-      "sha512": "P2wqAj72fFjpP6wb9nSfDqNBMab+2ovzSDzUZK7MVIm54tBJEPr9jWfSjjoTpPwj1LeKcmX3vr0ttyjSSFM47g==",
+      "sha512": "pglr0aiiI0eYhQceBtF4u47D9jxXB2U0VMqwUCUhHn4UIHHrOnuY/SWn2VqM3th1/nCwa2uLipN5cUhw+UlaTA==",
       "type": "package",
       "path": "system.reflection.emit/4.0.1",
       "files": [
         ".nupkg.metadata",
-        "System.Reflection.Emit.4.0.1.nupkg.sha512",
-        "System.Reflection.Emit.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4112,17 +4126,17 @@
         "ref/netstandard1.1/ru/System.Reflection.Emit.xml",
         "ref/netstandard1.1/zh-hans/System.Reflection.Emit.xml",
         "ref/netstandard1.1/zh-hant/System.Reflection.Emit.xml",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.reflection.emit.4.0.1.nupkg.sha512",
+        "system.reflection.emit.nuspec"
       ]
     },
     "System.Reflection.Emit.ILGeneration/4.0.1": {
-      "sha512": "Ov6dU8Bu15Bc7zuqttgHF12J5lwSWyTf1S+FJouUXVMSqImLZzYaQ+vRr1rQ0OZ0HqsrwWl4dsKHELckQkVpgA==",
+      "sha512": "KcdUIw+AOafxtW9ZjblvBvEHbCWFTCmPqmhYglMkrQXf7e0USHTKxzgK7oZN2BcrPu5+JtMMf0+GakqM/gKUTw==",
       "type": "package",
       "path": "system.reflection.emit.ilgeneration/4.0.1",
       "files": [
         ".nupkg.metadata",
-        "System.Reflection.Emit.ILGeneration.4.0.1.nupkg.sha512",
-        "System.Reflection.Emit.ILGeneration.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net45/_._",
@@ -4144,17 +4158,17 @@
         "ref/netstandard1.0/zh-hant/System.Reflection.Emit.ILGeneration.xml",
         "ref/portable-net45+wp8/_._",
         "ref/wp80/_._",
-        "runtimes/aot/lib/netcore50/_._"
+        "runtimes/aot/lib/netcore50/_._",
+        "system.reflection.emit.ilgeneration.4.0.1.nupkg.sha512",
+        "system.reflection.emit.ilgeneration.nuspec"
       ]
     },
     "System.Reflection.Emit.Lightweight/4.0.1": {
-      "sha512": "sSzHHXueZ5Uh0OLpUQprhr+ZYJrLPA2Cmr4gn0wj9+FftNKXx8RIMKvO9qnjk2ebPYUjZ+F2ulGdPOsvj+MEjA==",
+      "sha512": "Nc+Y3jyXa1nNEKhSRcLRK0CBPDduCVbr7FwwsSJPbB3koUxWCsrJz70SiLdWNPKLv9Ugpzll6qgXud0/Kh1Erg==",
       "type": "package",
       "path": "system.reflection.emit.lightweight/4.0.1",
       "files": [
         ".nupkg.metadata",
-        "System.Reflection.Emit.Lightweight.4.0.1.nupkg.sha512",
-        "System.Reflection.Emit.Lightweight.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net45/_._",
@@ -4176,17 +4190,17 @@
         "ref/netstandard1.0/zh-hant/System.Reflection.Emit.Lightweight.xml",
         "ref/portable-net45+wp8/_._",
         "ref/wp80/_._",
-        "runtimes/aot/lib/netcore50/_._"
+        "runtimes/aot/lib/netcore50/_._",
+        "system.reflection.emit.lightweight.4.0.1.nupkg.sha512",
+        "system.reflection.emit.lightweight.nuspec"
       ]
     },
     "System.Reflection.Extensions/4.0.1": {
-      "sha512": "GYrtRsZcMuHF3sbmRHfMYpvxZoIN2bQGrYGerUiWLEkqdEUQZhH3TRSaC/oI4wO0II1RKBPlpIa1TOMxIcOOzQ==",
+      "sha512": "ItjgKqqgw8dE8NCdwW5RDzuW8dvDQOXHZoXRC8GBc09Hsp7t4J0wV5VB9ooZkWpID+PKXBrbeIkws9XzFy3f5w==",
       "type": "package",
       "path": "system.reflection.extensions/4.0.1",
       "files": [
         ".nupkg.metadata",
-        "System.Reflection.Extensions.4.0.1.nupkg.sha512",
-        "System.Reflection.Extensions.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4232,11 +4246,13 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.reflection.extensions.4.0.1.nupkg.sha512",
+        "system.reflection.extensions.nuspec"
       ]
     },
     "System.Reflection.Metadata/1.3.0": {
-      "sha512": "U+3Wk6TDjGFKhvht8aOuFdHIsh/Zh5Tg95piAPjD0CcdOoTZLKsxJ1H5PNggATOdPZKi0jPa7hgsNznMRzhDHw==",
+      "sha512": "okhGCiKxU8JYdXHRKpDftvOP9+z3CtL4+yUpxJ7Uir+W8e0KEbGIS5PAhAo1fQVeIGi7c6rXsa2IidQmHS/Cbw==",
       "type": "package",
       "path": "system.reflection.metadata/1.3.0",
       "files": [
@@ -4308,13 +4324,11 @@
       ]
     },
     "System.Reflection.TypeExtensions/4.1.0": {
-      "sha512": "tsQ/ptQ3H5FYfON8lL4MxRk/8kFyE0A+tGPXmVP967cT/gzLHYxIejIYSxp4JmIeFHVP78g/F2FE1mUUTbDtrg==",
+      "sha512": "umbJtFqUUdu1kh+leXfNIUTTxkP3QDejm/c7kfJwC4J0wX9lgQgSi4zhv0J9R+7liyN1JSMkXumGfygsx4qwDA==",
       "type": "package",
       "path": "system.reflection.typeextensions/4.1.0",
       "files": [
         ".nupkg.metadata",
-        "System.Reflection.TypeExtensions.4.1.0.nupkg.sha512",
-        "System.Reflection.TypeExtensions.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4357,7 +4371,9 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "runtimes/aot/lib/netcore50/System.Reflection.TypeExtensions.dll"
+        "runtimes/aot/lib/netcore50/System.Reflection.TypeExtensions.dll",
+        "system.reflection.typeextensions.4.1.0.nupkg.sha512",
+        "system.reflection.typeextensions.nuspec"
       ]
     },
     "System.Resources.ResourceManager/4.0.1": {
@@ -4714,13 +4730,11 @@
       ]
     },
     "System.Runtime.InteropServices.RuntimeInformation/4.0.0": {
-      "sha512": "hWPhJxc453RCa8Z29O91EmfGeZIHX1ZH2A8L6lYQVSaKzku2DfArSfMEb1/MYYzPQRJZeu0c9dmYeJKxW5Fgng==",
+      "sha512": "s9r1hfzljXoydcdQXsAEJxcMA59Q2kLoRw54XpbOT4ixPyLzlCLHWOtkoVIv1hR0oglaDHzHa4wBIpD5YQAvFg==",
       "type": "package",
       "path": "system.runtime.interopservices.runtimeinformation/4.0.0",
       "files": [
         ".nupkg.metadata",
-        "System.Runtime.InteropServices.RuntimeInformation.4.0.0.nupkg.sha512",
-        "System.Runtime.InteropServices.RuntimeInformation.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4743,11 +4757,13 @@
         "runtimes/unix/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
         "runtimes/win/lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll",
         "runtimes/win/lib/netcore50/System.Runtime.InteropServices.RuntimeInformation.dll",
-        "runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll"
+        "runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "system.runtime.interopservices.runtimeinformation.4.0.0.nupkg.sha512",
+        "system.runtime.interopservices.runtimeinformation.nuspec"
       ]
     },
     "System.Runtime.Loader/4.0.0": {
-      "sha512": "DimhL5l87RgNHNIcwz48bfW0ta7KLo81vAuYUWuxiegsiFDGmQGkDCWkeiPm8QDPvVoLHuNX/ONsMFgScadtgA==",
+      "sha512": "NqZDXvZEGKsF+qQYdoyRog7KE3/C1AEkrtskcnKNbtlsaSpw9rDaERoxgVRDoJkJcLuiGsvf5JU7wSfFA2/QCg==",
       "type": "package",
       "path": "system.runtime.loader/4.0.0",
       "files": [
@@ -4830,7 +4846,7 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.1.1": {
-      "sha512": "m3vhDr4HQv39Nkdafpqup7MHy1d6syCZ+8pX30O/4l5mZyZOsTTd1qwAxAeMpQBuesoipTRv0N8ZmKF1DbEsag==",
+      "sha512": "Ryv+HbNCeFEx/bvihYteauiUC+CfCGVA8ZynOE8cVFmi3Nl4OnRw7dkfSGXgG/kVCTurGSvkPpoKXLfrAVol7w==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.1.1",
       "files": [
@@ -5255,23 +5271,23 @@
       ]
     },
     "System.Threading.Tasks.Extensions/4.0.0": {
-      "sha512": "pH4FZDsZQ/WmgJtN4LWYmRdJAEeVkyriSwrv2Teoe5FOU0Yxlb6II6GL8dBPOfRmutHGATduj3ooMt7dJ2+i+w==",
+      "sha512": "7vv17eVoN+9LBsgGxXYKZnnIW60hLnvcqGreuCVI2OAi1KEKlBlsDzEnxkHhHWy3RrNHkV/rYWiLHxUWFp4zVg==",
       "type": "package",
       "path": "system.threading.tasks.extensions/4.0.0",
       "files": [
         ".nupkg.metadata",
-        "System.Threading.Tasks.Extensions.4.0.0.nupkg.sha512",
-        "System.Threading.Tasks.Extensions.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
         "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
         "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
-        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml"
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "system.threading.tasks.extensions.4.0.0.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec"
       ]
     },
     "System.Threading.Thread/4.0.0": {
-      "sha512": "U0dFK0p4dYDwjz/Vy615vjKw6dnOicLwE70ZSA1Vs7Bwg7+u7WKgSHpwFacK95kYU8uwzBfxSgr5B6EmMzsiew==",
+      "sha512": "P8CNFJhsNLjIIB8l49zbqKIsJc/k7ZyAHKGujx3y9Uiyg/jCfKDHsEX/0OB3mYx/EeN+i+bwsawmx66PN9RDrA==",
       "type": "package",
       "path": "system.threading.thread/4.0.0",
       "files": [
@@ -5310,7 +5326,7 @@
       ]
     },
     "System.Threading.ThreadPool/4.0.10": {
-      "sha512": "TvSSaI0CJIIdePrgHzGV439rTDsF2Cq+zWL/jpqlJtyQVmH5ASaQ8am/F7soBzBb0AqnXAHhdw7yQCXPFcqRjw==",
+      "sha512": "0zwv6qnah899uHG3oLGGQefybgAjVT08mLVHrlMk862cpjGXcaIizu44JW2CnZwhiAZIRgWK/jLWwMAgoWKd/Q==",
       "type": "package",
       "path": "system.threading.threadpool/4.0.10",
       "files": [
@@ -5487,7 +5503,7 @@
       ]
     },
     "System.Xml.XmlDocument/4.0.1": {
-      "sha512": "295ImOE+ZV6x9gUW+Xnr8iBcY2FyIa0B9w98csLB8plR1WkWvGJ2/Nb/HpXW+aNFntfvCmnbY53PuhKoJ5Yeug==",
+      "sha512": "2eZu6IP+etFVBBFUFzw2w6J21DqIN5eL9Y8r8JfJWUmV28Z5P0SNU01oCisVHQgHsDhHPnmq2s1hJrJCFZWloQ==",
       "type": "package",
       "path": "system.xml.xmldocument/4.0.1",
       "files": [
@@ -5596,7 +5612,7 @@
       ]
     },
     "System.Xml.XPath/4.0.1": {
-      "sha512": "zVPtGhuwxpj21sx7BQPwRSQL7xVgDSYR/ldxqLmbmyAO7x68XBIu865kq5IUZ5OFsAPZTIkkPcjaAZe8YKpDaw==",
+      "sha512": "UWd1H+1IJ9Wlq5nognZ/XJdyj8qPE4XufBUkAW59ijsCPjZkZe0MUzKKJFBr+ZWBe5Wq1u1d5f2CYgE93uH7DA==",
       "type": "package",
       "path": "system.xml.xpath/4.0.1",
       "files": [
@@ -5634,12 +5650,11 @@
       ]
     },
     "System.Xml.XPath.XmlDocument/4.0.1": {
-      "sha512": "gQQaCNO5FYxD37SNQvE+yZUNfCt/Y+FgCnead3hu37RsUiwy2cxqRDWPv+Ee+6DlOeV47xaSYYZ6GQW4EhoEXQ==",
+      "sha512": "Zm2BdeanuncYs3NhCj4c9e1x3EXFzFBVv2wPEc/Dj4ZbI9R8ecLSR5frAsx4zJCPBtKQreQ7Q/KxJEohJZbfzA==",
       "type": "package",
       "path": "system.xml.xpath.xmldocument/4.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5671,21 +5686,23 @@
       ]
     },
     "xunit/2.3.1": {
-      "sha512": "IWux0xXfZ/bC7SgooK5rmW5KwCwFg9GFslmPxA7+pJsT+2SRyhOfOgNUXDd7B09UN4f6kogRT2TqNi6gbWEspA==",
+      "sha512": "cfU3mctX9JfTb21YuG2kVXy4LsuIZrP7+YwJct04eh9p3Ykq+iAlGhCYWjvo6upIFpE1dBKGXEdfczIPz6Sy3w==",
       "type": "package",
       "path": "xunit/2.3.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "xunit.2.3.1.nupkg.sha512",
         "xunit.nuspec"
       ]
     },
     "xunit.abstractions/2.0.1": {
-      "sha512": "bDm/zdG5rnRDsobKuKwrvL4HccBdC0uvT12be6fG12P3d1U7u9Wkvfoq/PM2GeyIeb0Dtcmm/7k2oaawiqQ2Dg==",
+      "sha512": "W2N3sBVk+ZXfIZYtHYsUGf6j7qsFJ2QlG/zQojFmDt0jB2YhnAgp/lmKVduedn5ZMcvKHOzMUDQ4uZ5BlNaS+Q==",
       "type": "package",
       "path": "xunit.abstractions/2.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net35/xunit.abstractions.dll",
         "lib/net35/xunit.abstractions.xml",
         "lib/netstandard1.0/xunit.abstractions.dll",
@@ -5695,12 +5712,13 @@
       ]
     },
     "xunit.analyzers/0.7.0": {
-      "sha512": "pEjPJ/pd+r9blGBJ9bXg961phkAiCl4k2DwxwWGEZyYC/7Tb1xJ1az0H18uGANX7zFIkvE5ZO1eZZ4vU7gny7w==",
+      "sha512": "NRUjJ+2xl95ycqEv7LsN6XeC7o5UGWw41DNPNrg5Ce+8pyluWfL45/K7O7/B/zAwn/RZKP03zSEgeZSBK3ZwhQ==",
       "type": "package",
       "path": "xunit.analyzers/0.7.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "analyzers/dotnet/cs/xunit.analyzers.dll",
         "tools/install.ps1",
         "tools/uninstall.ps1",
@@ -5709,11 +5727,12 @@
       ]
     },
     "xunit.assert/2.3.1": {
-      "sha512": "+mUMp3aJOS0ag3qJ2tUhVa930KhwjyypxXT4Ab8lQozEQN8/xgkblQnYs0woIWpr2NbzEOxsZojytl9NBVRKxg==",
+      "sha512": "+pmtOmZR8ArykYLU7UWRjzmhhIJQBwxiJbTD1GvHP8JlN9DyCPa8vM73WGax8prJUFOFcv467m4P7EuNM3ajTw==",
       "type": "package",
       "path": "xunit.assert/2.3.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/netstandard1.1/xunit.assert.dll",
         "lib/netstandard1.1/xunit.assert.xml",
         "xunit.assert.2.3.1.nupkg.sha512",
@@ -5721,11 +5740,12 @@
       ]
     },
     "xunit.core/2.3.1": {
-      "sha512": "LOG4qOFuVQcjYcIuZbKeo03Uvng3lSb2gZJU9ANljwCf+PTd//iAMZS5qcJQZrjhndc4aOUlJGQy5wa0+/iZ6w==",
+      "sha512": "hSSKqlt64ApJwSyJe+sBPw5mtgsfmT5kHoa20dURw01RA8QixLypJmoh4P06iP1ufm/uQxm9+6ufS23p6rfuSQ==",
       "type": "package",
       "path": "xunit.core/2.3.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "build/xunit.core.props",
         "build/xunit.core.targets",
         "build/xunit.execution.desktop.dll",
@@ -5736,11 +5756,12 @@
       ]
     },
     "xunit.extensibility.core/2.3.1": {
-      "sha512": "1mgYqXeQfU+7zcSRW8/5Uf1jVZ5+5WELmi+BuRTh0xu/x0Q0gK0SuR3FLUF4BSd8sfZzvrRUrhWj3ltpyFxhrg==",
+      "sha512": "SdEIJO96fIAeKvt9NjyX1WE1/uTEws8yeo5QZgBtkT6eBG+IT77rh6+Wyhg8MZmj8FJqZgm9ib6AJ+KbqOJHCQ==",
       "type": "package",
       "path": "xunit.extensibility.core/2.3.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/netstandard1.1/xunit.core.dll",
         "lib/netstandard1.1/xunit.core.dll.tdnet",
         "lib/netstandard1.1/xunit.core.xml",
@@ -5751,11 +5772,12 @@
       ]
     },
     "xunit.extensibility.execution/2.3.1": {
-      "sha512": "i8xrHfKC5dyBWQ7I15FePzm0m8KNToBsTleCCQbOQuXRPZIvupd4nnfaCPeJuKHHe7yJ8JGtWxjIgw0ow/cMhg==",
+      "sha512": "BPbJGdvx0zO9wX8FOEZL5ZVM+i1XIlZoPaLQvLsSxgttmd7hYBNSa0hS+Rz4tFRl8tpP6LE0075S6ry38G9fzQ==",
       "type": "package",
       "path": "xunit.extensibility.execution/2.3.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net452/xunit.execution.desktop.dll",
         "lib/net452/xunit.execution.desktop.xml",
         "lib/netstandard1.1/xunit.execution.dotnet.dll",
@@ -5765,11 +5787,12 @@
       ]
     },
     "xunit.runner.visualstudio/2.3.1": {
-      "sha512": "B+RtW4dyBquEyjSAFyV5RMifaOZOirDwlzcIq2DNVGo1gzJS8PAPu5S+2y1n6ZgEMWbpqJf9TkZ55+X6FLdy3A==",
+      "sha512": "tblA8hxXBcyHMAaCjwD+bQmb4EuNoK37FB1iv4FVks5BinZQY24Sp44VrGjPqjbS9Zk+T2MHqK+QtFjyHkSJFQ==",
       "type": "package",
       "path": "xunit.runner.visualstudio/2.3.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "build/_common/xunit.abstractions.dll",
         "build/_common/xunit.runner.reporters.net452.dll",
         "build/_common/xunit.runner.utility.net452.dll",
@@ -5791,47 +5814,54 @@
         "xunit.runner.visualstudio.2.3.1.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "ProjectEuler/1.0.0": {
+      "type": "project",
+      "path": "../ProjectEuler/ProjectEuler.csproj",
+      "msbuildProject": "../ProjectEuler/ProjectEuler.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "/Users/dbusha/repos/ProjectEuler/Project Euler/Project Euler.csproj",
       "Microsoft.NET.Test.Sdk >= 15.5.0",
       "Microsoft.NETCore.App >= 2.0.0",
+      "ProjectEuler >= 1.0.0",
       "xunit >= 2.3.1",
       "xunit.runner.visualstudio >= 2.3.1"
     ]
   },
   "packageFolders": {
-    "/Users/dbusha/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\dbusha\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dbusha/repos/ProjectEuler/EulerTests/EulerTests.csproj",
+      "projectUniqueName": "C:\\source\\ProjectEuler\\EulerTests\\EulerTests.csproj",
       "projectName": "EulerTests",
-      "projectPath": "/Users/dbusha/repos/ProjectEuler/EulerTests/EulerTests.csproj",
-      "packagesPath": "/Users/dbusha/.nuget/packages/",
-      "outputPath": "/Users/dbusha/repos/ProjectEuler/EulerTests/obj/",
+      "projectPath": "C:\\source\\ProjectEuler\\EulerTests\\EulerTests.csproj",
+      "packagesPath": "C:\\Users\\dbusha\\.nuget\\packages\\",
+      "outputPath": "C:\\source\\ProjectEuler\\EulerTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/dbusha/.config/NuGet/NuGet.Config"
+        "C:\\Users\\dbusha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "https://www.nuget.org/api/v2/": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/Users/dbusha/repos/ProjectEuler/Project Euler/Project Euler.csproj": {
-              "projectPath": "/Users/dbusha/repos/ProjectEuler/Project Euler/Project Euler.csproj"
+            "C:\\source\\ProjectEuler\\ProjectEuler\\ProjectEuler.csproj": {
+              "projectPath": "C:\\source\\ProjectEuler\\ProjectEuler\\ProjectEuler.csproj"
             }
           }
         }
@@ -5871,16 +5901,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/dbusha/repos/ProjectEuler/Project Euler/Project Euler.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/dbusha/repos/ProjectEuler/Project Euler/Project Euler.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }

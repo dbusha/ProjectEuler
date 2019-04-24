@@ -1,25 +1,26 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/dbusha/repos/ProjectEuler/EulerTests/EulerTests.csproj",
+    "projectUniqueName": "C:\\source\\ProjectEuler\\EulerTests\\EulerTests.csproj",
     "projectName": "EulerTests",
-    "projectPath": "/Users/dbusha/repos/ProjectEuler/EulerTests/EulerTests.csproj",
-    "outputPath": "/Users/dbusha/repos/ProjectEuler/EulerTests/obj/",
+    "projectPath": "C:\\source\\ProjectEuler\\EulerTests\\EulerTests.csproj",
+    "outputPath": "C:\\source\\ProjectEuler\\EulerTests\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.0"
     ],
     "sources": {
-      "https://www.nuget.org/api/v2/": {}
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
       "netcoreapp2.0": {
         "projectReferences": {
-          "/Users/dbusha/repos/ProjectEuler/Project Euler/Project Euler.csproj": {
-            "projectPath": "/Users/dbusha/repos/ProjectEuler/Project Euler/Project Euler.csproj"
+          "C:\\source\\ProjectEuler\\ProjectEuler\\ProjectEuler.csproj": {
+            "projectPath": "C:\\source\\ProjectEuler\\ProjectEuler\\ProjectEuler.csproj"
           }
         }
       }
