@@ -17,32 +17,21 @@
       <e p="EulerTests" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="EulerTests.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp2.0" t="Include">
-              <e p="EulerTests.AssemblyInfo.cs" t="Include" />
-              <e p="EulerTests.Program.cs" t="Include" />
-            </e>
-          </e>
-        </e>
+        <e p="obj" t="ExcludeRecursive" />
         <e p="UnitTest1.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="ProjectEuler" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="IRunProblem.cs" t="Include" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netstandard2.0" t="Include">
-              <e p="ProjectEuler.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
+        <e p="MathLib.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
         <e p="Problem1.cs" t="Include" />
         <e p="Problem2.cs" t="Include" />
         <e p="Problem3.cs" t="Include" />
         <e p="Problem4.cs" t="Include" />
         <e p="Problem5.cs" t="Include" />
+        <e p="Problem6.cs" t="Include" />
+        <e p="Problem7.cs" t="Include" />
         <e p="ProjectEuler.csproj" t="IncludeRecursive" />
       </e>
       <e p="ProjectEuler.sln" t="IncludeFlat" />

@@ -3,20 +3,15 @@ using System.Diagnostics;
 
 namespace ProjectEuler
 {
-    public class Problem3 : RunProblem<long>
+    public class Problem3
     {
+        /*
+         * The prime factors of 13195 are 5, 7, 13 and 29. What is the largest prime factor of the number 600851475143 ?
+         */
         private static readonly long Value = 600851475143;
-        public override long Run(int solutionNumber)
-        {
-            switch (solutionNumber)
-            {
-                case 1: return Solution1();
-                case 2: return Solution2();
-                default: return -1;
-            }
-        }
+       
 
-        private long Solution1()
+        public long Solution1()
         {
             long max = -1;
             for (long i = 2; i< Math.Sqrt(Value); ++i)
@@ -46,9 +41,5 @@ namespace ProjectEuler
             return true;
         }
 
-        private int Solution2()
-        {
-            return 0;
-        }
     }
 }

@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c18b6ef8-9707-462c-a9dc-1a18f9e08ea5" name="Default Changelist" comment="" />
+    <list default="true" id="c18b6ef8-9707-462c-a9dc-1a18f9e08ea5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ProjectEuler/MathLib.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEuler/Problem6.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEuler/Problem7.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectEuler/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectEuler/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectEuler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectEuler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EulerTests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EulerTests/UnitTest1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EulerTests/obj/Debug/netcoreapp2.0/EulerTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EulerTests/obj/Debug/netcoreapp2.0/EulerTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EulerTests/obj/Debug/netcoreapp2.0/EulerTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EulerTests/obj/Debug/netcoreapp2.0/EulerTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler/IRunProblem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler/Problem1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler/Problem1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler/Problem2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler/Problem2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler/Problem3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler/Problem3.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler/Problem4.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler/Problem4.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler/Problem5.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler/Problem5.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +24,80 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjectEuler/MathLib.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+              <folding>
+                <marker date="1556159903915" expanded="true" signature="6:66" ph="..." />
+                <marker date="1556159903915" expanded="true" signature="90:792" ph="{...}" />
+                <marker date="1556159903915" expanded="true" signature="117:790" ph="{...}" />
+                <marker date="1556159903915" expanded="true" signature="189:518" ph="{...}" />
+                <marker date="1556159903915" expanded="true" signature="288:410" ph="{...}" />
+                <marker date="1556159903915" expanded="true" signature="575:775" ph="{...}" />
+                <marker date="1556159903915" expanded="true" signature="641:739" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjectEuler/Problem6.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+              <folding>
+                <marker date="1556159053477" expanded="true" signature="6:32" ph="..." />
+                <marker date="1556159053477" expanded="true" signature="56:931" ph="{...}" />
+                <marker date="1556159053477" expanded="true" signature="84:929" ph="{...}" />
+                <marker date="1556159053477" expanded="true" signature="99:622" ph="/* The sum of the squares of the first ten natural numbers is: 1^2 + 2^2 + ... + 10^2 = 385 ... */" />
+                <marker date="1556159053477" expanded="true" signature="655:923" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EulerTests/UnitTest1.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="70" column="29" lean-forward="true" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+              <folding>
+                <marker date="1556159628628" expanded="true" signature="6:46" ph="..." />
+                <marker date="1556159628628" expanded="true" signature="68:1619" ph="{...}" />
+                <marker date="1556159628628" expanded="true" signature="97:1617" ph="{...}" />
+                <marker date="1556159628628" expanded="true" signature="146:381" ph="{...}" />
+                <marker date="1556159628628" expanded="true" signature="426:578" ph="{...}" />
+                <marker date="1556159628628" expanded="true" signature="639:787" ph="{...}" />
+                <marker date="1556159628628" expanded="true" signature="848:997" ph="{...}" />
+                <marker date="1556159628628" expanded="true" signature="1058:1224" ph="{...}" />
+                <marker date="1556159628628" expanded="true" signature="1277:1417" ph="{...}" />
+                <marker date="1556159628628" expanded="true" signature="1478:1611" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ProjectEuler/Problem7.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+              <folding>
+                <marker date="1556159805116" expanded="true" signature="57:701" ph="{...}" />
+                <marker date="1556159805116" expanded="true" signature="85:699" ph="{...}" />
+                <marker date="1556159805116" expanded="true" signature="100:272" ph="/* By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13. ... */" />
+                <marker date="1556159805116" expanded="true" signature="305:693" ph="{...}" />
+                <marker date="1556159805116" expanded="true" signature="455:656" ph="{...}" />
+                <marker date="1556159805116" expanded="true" signature="538:642" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -20,15 +108,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problem1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problem2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectEuler/Problem5.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problem3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problem4.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problem6.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/MathLib.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EulerTests/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///C# Console" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problem7.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ProjectEuler/Problem5.cs" />
-        <option value="$PROJECT_DIR$/EulerTests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/ProjectEuler/Problem4.cs" />
+        <option value="$PROJECT_DIR$/ProjectEuler/Problem3.cs" />
+        <option value="$PROJECT_DIR$/ProjectEuler/Problem5.cs" />
+        <option value="$PROJECT_DIR$/ProjectEuler/Problem1.cs" />
+        <option value="$PROJECT_DIR$/ProjectEuler/Problem2.cs" />
+        <option value="$PROJECT_DIR$/ProjectEuler/Problem6.cs" />
+        <option value="$PROJECT_DIR$/EulerTests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/ProjectEuler/Problem7.cs" />
+        <option value="$PROJECT_DIR$/ProjectEuler/MathLib.cs" />
       </list>
     </option>
   </component>
@@ -58,18 +161,12 @@
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="ProjectEuler" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="EulerTests" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ProjectEuler" type="24d0babc:SolutionExplorerModelNode" />
               <item name="ProjectEuler" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
-        <option name="show-all-files" value="true" />
+        <option name="show-all-files" value="false" />
       </pane>
       <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
@@ -128,12 +225,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555174708273</updated>
-      <workItem from="1555174712381" duration="23500000" />
+      <workItem from="1555174712381" duration="28430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23500000" />
+    <option name="totallyTimeSpent" value="28430000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -158,11 +255,11 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Performance Profiler" />
       <window_info anchor="bottom" id="Build" weight="0.3293011" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3293011" />
+      <window_info anchor="bottom" id="Terminal" weight="0.30376345" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39919356" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293011" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39919356" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -179,52 +276,206 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ProjectEuler/Problem5.cs</url>
+          <line>40</line>
+          <properties documentPath="$PROJECT_DIR$/ProjectEuler/Problem5.cs" initialLine="40">
+            <startOffsets>
+              <option value="1212" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1225" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ProjectEuler/Problem6.cs</url>
+          <line>22</line>
+          <properties documentPath="$PROJECT_DIR$/ProjectEuler/Problem6.cs" initialLine="22">
+            <startOffsets>
+              <option value="879" />
+            </startOffsets>
+            <endOffsets>
+              <option value="913" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ProjectEuler/Problem7.cs</url>
+          <line>26</line>
+          <properties documentPath="$PROJECT_DIR$/ProjectEuler/Problem7.cs" initialLine="26">
+            <startOffsets>
+              <option value="670" />
+            </startOffsets>
+            <endOffsets>
+              <option value="683" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ProjectEuler/Problem5.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        <state relative-caret-position="133">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
-            <marker date="1556068180802" expanded="false" signature="6:92" ph="..." />
-            <marker date="1556068180802" expanded="true" signature="116:2445" ph="{...}" />
-            <marker date="1556068180802" expanded="true" signature="163:2443" ph="{...}" />
-            <marker date="1556068180802" expanded="true" signature="251:459" ph="{...}" />
-            <marker date="1556068180802" expanded="true" signature="297:449" ph="{...}" />
-            <marker date="1556068180802" expanded="true" signature="493:1347" ph="{...}" />
-            <marker date="1556068180802" expanded="true" signature="596:780" ph="{...}" />
-            <marker date="1556068180802" expanded="true" signature="876:1087" ph="{...}" />
-            <marker date="1556068180802" expanded="true" signature="1416:1745" ph="{...}" />
-            <marker date="1556068180802" expanded="true" signature="1515:1637" ph="{...}" />
-            <marker date="1556068180802" expanded="true" signature="1787:2437" ph="{...}" />
-            <marker date="1556068180802" expanded="true" signature="1972:2403" ph="{...}" />
-            <marker date="1556068180802" expanded="true" signature="2079:2276" ph="{...}" />
-            <marker date="1556068180802" expanded="true" signature="2139:2258" ph="{...}" />
+            <marker date="1556158310104" expanded="false" signature="6:92" ph="..." />
+            <marker date="1556158310104" expanded="true" signature="116:1934" ph="{...}" />
+            <marker date="1556158310104" expanded="true" signature="145:1932" ph="{...}" />
+            <marker date="1556158310104" expanded="true" signature="160:405" ph="/* 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder. ... */" />
+            <marker date="1556158310104" expanded="true" signature="501:1235" ph="{...}" />
+            <marker date="1556158310104" expanded="true" signature="604:786" ph="{...}" />
+            <marker date="1556158310104" expanded="true" signature="882:1093" ph="{...}" />
+            <marker date="1556158310104" expanded="true" signature="1276:1926" ph="{...}" />
+            <marker date="1556158310104" expanded="true" signature="1461:1892" ph="{...}" />
+            <marker date="1556158310104" expanded="true" signature="1568:1765" ph="{...}" />
+            <marker date="1556158310104" expanded="true" signature="1628:1747" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problem4.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <marker date="1556157685666" expanded="true" signature="42:1266" ph="{...}" />
+            <marker date="1556157685666" expanded="true" signature="71:1264" ph="{...}" />
+            <marker date="1556157685666" expanded="true" signature="86:330" ph="/* A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit ... */" />
+            <marker date="1556157685666" expanded="true" signature="439:953" ph="{...}" />
+            <marker date="1556157685666" expanded="true" signature="520:919" ph="{...}" />
+            <marker date="1556157685666" expanded="true" signature="580:888" ph="{...}" />
+            <marker date="1556157685666" expanded="true" signature="756:870" ph="{...}" />
+            <marker date="1556157685666" expanded="true" signature="1001:1258" ph="{...}" />
+            <marker date="1556157685666" expanded="true" signature="1106:1223" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problem3.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <folding>
+            <marker date="1556157771557" expanded="false" signature="6:39" ph="..." />
+            <marker date="1556157771557" expanded="true" signature="63:946" ph="{...}" />
+            <marker date="1556157771557" expanded="true" signature="91:944" ph="{...}" />
+            <marker date="1556157771557" expanded="true" signature="106:241" ph="/* The prime factors of 13195 are 5, 7, 13 and 29. What is the largest prime factor of the number 600851475143 ? ... */" />
+            <marker date="1556157771557" expanded="true" signature="341:619" ph="{...}" />
+            <marker date="1556157771557" expanded="true" signature="433:584" ph="{...}" />
+            <marker date="1556157771557" expanded="true" signature="505:570" ph="{...}" />
+            <marker date="1556157771557" expanded="true" signature="659:694" ph="{...}" />
+            <marker date="1556157771557" expanded="true" signature="737:937" ph="{...}" />
+            <marker date="1556157771557" expanded="true" signature="803:901" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problem1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <marker date="1556158417558" expanded="true" signature="42:747" ph="{...}" />
+            <marker date="1556158417558" expanded="true" signature="71:745" ph="{...}" />
+            <marker date="1556158417558" expanded="true" signature="86:308" ph="/* If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. ... */" />
+            <marker date="1556158417558" expanded="true" signature="348:490" ph="{...}" />
+            <marker date="1556158417558" expanded="true" signature="522:739" ph="{...}" />
+            <marker date="1556158417558" expanded="true" signature="600:704" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problem2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <marker date="1556158473789" expanded="true" signature="37:961" ph="{...}" />
+            <marker date="1556158473789" expanded="true" signature="66:959" ph="{...}" />
+            <marker date="1556158473789" expanded="true" signature="81:450" ph="/* Each new term in the Fibonacci sequence is generated by adding the previous two terms. By starting with ... */" />
+            <marker date="1556158473789" expanded="true" signature="588:953" ph="{...}" />
+            <marker date="1556158473789" expanded="true" signature="716:918" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectEuler/MathLib.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <marker date="1556159903915" expanded="true" signature="6:66" ph="..." />
+            <marker date="1556159903915" expanded="true" signature="90:792" ph="{...}" />
+            <marker date="1556159903915" expanded="true" signature="117:790" ph="{...}" />
+            <marker date="1556159903915" expanded="true" signature="189:518" ph="{...}" />
+            <marker date="1556159903915" expanded="true" signature="288:410" ph="{...}" />
+            <marker date="1556159903915" expanded="true" signature="575:775" ph="{...}" />
+            <marker date="1556159903915" expanded="true" signature="641:739" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problem6.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <marker date="1556159053477" expanded="true" signature="6:32" ph="..." />
+            <marker date="1556159053477" expanded="true" signature="56:931" ph="{...}" />
+            <marker date="1556159053477" expanded="true" signature="84:929" ph="{...}" />
+            <marker date="1556159053477" expanded="true" signature="99:622" ph="/* The sum of the squares of the first ten natural numbers is: 1^2 + 2^2 + ... + 10^2 = 385 ... */" />
+            <marker date="1556159053477" expanded="true" signature="655:923" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EulerTests/UnitTest1.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+        <state relative-caret-position="168">
+          <caret line="70" column="29" lean-forward="true" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
           <folding>
-            <marker date="1556071512858" expanded="true" signature="6:46" ph="..." />
-            <marker date="1556071512858" expanded="true" signature="68:1390" ph="{...}" />
-            <marker date="1556071512858" expanded="true" signature="97:1388" ph="{...}" />
-            <marker date="1556071512858" expanded="true" signature="146:371" ph="{...}" />
-            <marker date="1556071512858" expanded="true" signature="416:562" ph="{...}" />
-            <marker date="1556071512858" expanded="true" signature="623:765" ph="{...}" />
-            <marker date="1556071512858" expanded="true" signature="826:969" ph="{...}" />
-            <marker date="1556071512858" expanded="true" signature="1030:1185" ph="{...}" />
-            <marker date="1556071512858" expanded="true" signature="1242:1382" ph="{...}" />
+            <marker date="1556159628628" expanded="true" signature="6:46" ph="..." />
+            <marker date="1556159628628" expanded="true" signature="68:1619" ph="{...}" />
+            <marker date="1556159628628" expanded="true" signature="97:1617" ph="{...}" />
+            <marker date="1556159628628" expanded="true" signature="146:381" ph="{...}" />
+            <marker date="1556159628628" expanded="true" signature="426:578" ph="{...}" />
+            <marker date="1556159628628" expanded="true" signature="639:787" ph="{...}" />
+            <marker date="1556159628628" expanded="true" signature="848:997" ph="{...}" />
+            <marker date="1556159628628" expanded="true" signature="1058:1224" ph="{...}" />
+            <marker date="1556159628628" expanded="true" signature="1277:1417" ph="{...}" />
+            <marker date="1556159628628" expanded="true" signature="1478:1611" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problem7.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="320">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <marker date="1556159805116" expanded="true" signature="57:701" ph="{...}" />
+            <marker date="1556159805116" expanded="true" signature="85:699" ph="{...}" />
+            <marker date="1556159805116" expanded="true" signature="100:272" ph="/* By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13. ... */" />
+            <marker date="1556159805116" expanded="true" signature="305:693" ph="{...}" />
+            <marker date="1556159805116" expanded="true" signature="455:656" ph="{...}" />
+            <marker date="1556159805116" expanded="true" signature="538:642" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
