@@ -32,6 +32,17 @@ namespace ProjectEuler
 
             return true;
         }
-        
+
+        public static IEnumerable<long> GetFactors(long triangleNumber)
+        {
+            var factors = new List<long>{triangleNumber};
+            for (long i = triangleNumber/2; i > 0; i--)
+            {
+                if (triangleNumber % i == 0)
+                    factors.Add(i);
+            }
+
+            return factors;
+        }
     }
 }

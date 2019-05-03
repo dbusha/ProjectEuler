@@ -18,20 +18,28 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="EulerTests.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
-        <e p="UnitTest1.cs" t="Include" />
+        <e p="UnitTests11_20.cs" t="Include" />
+        <e p="UnitTests1_10.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="ProjectEuler" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="MathLib.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
-        <e p="Problem1.cs" t="Include" />
-        <e p="Problem2.cs" t="Include" />
-        <e p="Problem3.cs" t="Include" />
-        <e p="Problem4.cs" t="Include" />
-        <e p="Problem5.cs" t="Include" />
-        <e p="Problem6.cs" t="Include" />
-        <e p="Problem7.cs" t="Include" />
+        <e p="Problem11.cs" t="Include" />
+        <e p="Problem12.cs" t="Include" />
+        <e p="Problems_1-10" t="Include">
+          <e p="Problem1.cs" t="Include" />
+          <e p="Problem10.cs" t="Include" />
+          <e p="Problem2.cs" t="Include" />
+          <e p="Problem3.cs" t="Include" />
+          <e p="Problem4.cs" t="Include" />
+          <e p="Problem5.cs" t="Include" />
+          <e p="Problem6.cs" t="Include" />
+          <e p="Problem7.cs" t="Include" />
+          <e p="Problem8.cs" t="Include" />
+          <e p="Problem9.cs" t="Include" />
+        </e>
         <e p="ProjectEuler.csproj" t="IncludeRecursive" />
       </e>
       <e p="ProjectEuler.sln" t="IncludeFlat" />
