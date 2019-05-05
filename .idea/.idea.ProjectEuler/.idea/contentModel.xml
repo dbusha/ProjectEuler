@@ -17,18 +17,33 @@
       <e p="EulerTests" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="EulerTests.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive" />
+        <e p="MathLibTests.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="EulerTests.AssemblyInfo.cs" t="Include" />
+              <e p="EulerTests.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="UnitTests01_10.cs" t="Include" />
         <e p="UnitTests11_20.cs" t="Include" />
-        <e p="UnitTests1_10.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="ProjectEuler" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="HelperFiles" t="Include">
+          <e p="Problem13_numbers.txt" t="Include" />
+        </e>
         <e p="MathLib.cs" t="Include" />
-        <e p="obj" t="ExcludeRecursive" />
-        <e p="Problem11.cs" t="Include" />
-        <e p="Problem12.cs" t="Include" />
-        <e p="Problems_1-10" t="Include">
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="ProjectEuler.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Problems_01-10" t="Include">
           <e p="Problem1.cs" t="Include" />
           <e p="Problem10.cs" t="Include" />
           <e p="Problem2.cs" t="Include" />
@@ -40,7 +55,20 @@
           <e p="Problem8.cs" t="Include" />
           <e p="Problem9.cs" t="Include" />
         </e>
+        <e p="Problems_11-20" t="Include">
+          <e p="Problem11.cs" t="Include" />
+          <e p="Problem12.cs" t="Include" />
+          <e p="Problem13.cs" t="Include" />
+          <e p="Problem14.cs" t="Include" />
+          <e p="Problem15.cs" t="Include" />
+          <e p="Problem16.cs" t="Include" />
+          <e p="Problem17.cs" t="Include" />
+          <e p="Problem18.cs" t="Include" />
+          <e p="Problem19.cs" t="Include" />
+          <e p="Problem20.cs" t="Include" />
+        </e>
         <e p="ProjectEuler.csproj" t="IncludeRecursive" />
+        <e p="ProjectEuler.csproj.DotSettings" t="Include" />
       </e>
       <e p="ProjectEuler.sln" t="IncludeFlat" />
     </e>

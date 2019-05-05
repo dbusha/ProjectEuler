@@ -31,12 +31,10 @@ namespace ProjectEuler
         *   The product of these numbers is 26 × 63 × 78 × 14 = 1788696. What is the greatest product of four
         *   adjacent numbers in the same direction  (up, down, left, right, or diagonally) in the 20×20 grid?
         */
-        
-       
 
         private readonly int[][] grid;
-        private (int, int) maxCordinates;
 
+        
         public Problem11()
         {
             grid = InitializeGrid();
@@ -67,7 +65,6 @@ namespace ProjectEuler
             if (value > max)
             {
                 max = value;
-                maxCordinates = (row, column);
             }
         }
 

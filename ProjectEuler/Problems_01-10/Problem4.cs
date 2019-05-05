@@ -9,9 +9,6 @@ namespace ProjectEuler
          * numbers is 9009 = 91 × 99. Find the largest palindrome made from the product of two 3-digit numbers.
          */
         
-        private static readonly long Value = 600851475143;
-       
-
         public long Solution1()
         {
             int max = -1;

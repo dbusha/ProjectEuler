@@ -4,7 +4,7 @@ using Xunit;
 
 namespace EulerTests
 {
-    public class UnitTests1_10
+    public class UnitTests01_10
     {
         [Fact]
         public void Test1()
