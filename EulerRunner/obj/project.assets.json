@@ -670,31 +670,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dbusha\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/dbusha/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\ProjectEuler\\EulerRunner\\EulerRunner.csproj",
+      "projectUniqueName": "/Users/dbusha/repos/ProjectEuler/EulerRunner/EulerRunner.csproj",
       "projectName": "EulerRunner",
-      "projectPath": "C:\\source\\ProjectEuler\\EulerRunner\\EulerRunner.csproj",
-      "packagesPath": "C:\\Users\\dbusha\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\ProjectEuler\\EulerRunner\\obj\\",
+      "projectPath": "/Users/dbusha/repos/ProjectEuler/EulerRunner/EulerRunner.csproj",
+      "packagesPath": "/Users/dbusha/.nuget/packages/",
+      "outputPath": "/Users/dbusha/repos/ProjectEuler/EulerRunner/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\dbusha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/dbusha/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "netcoreapp2.0": {

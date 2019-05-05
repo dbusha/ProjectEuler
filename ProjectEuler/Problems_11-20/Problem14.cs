@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace ProjectEuler
 {
     public class Problem14
@@ -23,7 +26,20 @@ namespace ProjectEuler
 
         public int Solution1()
         {
+            var max = 0;
+            var sequenceMap = new Dictionary<int, List<int>>();
+            for (var i = 2; i < 1_000_000; i++)
+            {
+                if (sequenceMap.ContainsKey(i))
+                    continue;
+                var length = MathLib.GetCollatzSequence(i, sequenceMap).Count;
+                if (length > max)
+                    max = length;
+            }
             return 0;
         }
+
+
+        
     }
 }

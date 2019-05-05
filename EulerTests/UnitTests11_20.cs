@@ -39,7 +39,15 @@ namespace EulerTests
             var result = p.Solution1();
             var tenDigits = new String(result.Take(10).ToArray());
             Assert.Equal("5537376230", tenDigits);
+        }
 
+
+        [Fact]
+        public void Test14()
+        {
+            var p = new Problem14();
+            var value = p.Solution1();
+            Assert.Equal(0, value);
         }
         
         [Fact]

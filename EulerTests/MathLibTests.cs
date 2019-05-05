@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using ProjectEuler;
 using Xunit;
 
@@ -96,6 +97,17 @@ namespace EulerTests
             Assert.True(int1 == int2);
             Assert.True(int1 != int3);
             Assert.True(int1 == int4);
+        }
+
+
+        [Theory]
+        [InlineData(13, 10)]
+        [InlineData(25, 24)]
+        public void CollatzSequenceTest(int value, int length)
+        {
+            var lookup = new Dictionary<int, List<int>>();
+            var result = MathLib.GetCollatzSequence(value, lookup);
+            Assert.Equal(length, result.Count);
         }
     }
 }

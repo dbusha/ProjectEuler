@@ -26,8 +26,8 @@ namespace ProjectEuler
 
         public long Solution1()
         {
-            var counter = 2;
             long triangleNumber = 1;
+            var counter = 2;
             while (true)
             {
                 triangleNumber += counter;

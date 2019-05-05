@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\source\ProjectEuler" t="IncludeFlat">
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_ProjectEuler.1288168849.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="EulerRunner" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="EulerRunner.csproj" t="IncludeRecursive" />
@@ -31,6 +38,7 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="ProjectEuler" t="IncludeRecursive">
+        <e p="BigInt.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="HelperFiles" t="Include">
           <e p="Problem13_numbers.txt" t="Include" />
@@ -72,10 +80,5 @@
       </e>
       <e p="ProjectEuler.sln" t="IncludeFlat" />
     </e>
-    <e p="C:\Users\dbusha\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
-    <e p="C:\Users\dbusha\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
-    <e p="C:\Users\dbusha\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
-    <e p="C:\Users\dbusha\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\dbusha\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_ProjectEuler.1377863092.00" t="ExcludeRecursive" />
   </component>
 </project>
