@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using ProjectEuler.Maths;
 
 namespace ProjectEuler
 {
@@ -23,20 +24,35 @@ namespace ProjectEuler
          * 
          */
 
+        private const int TopOfRange = 1_000_000;
 
         public int Solution1()
         {
-            var max = 0;
-            var sequenceMap = new Dictionary<int, List<int>>();
-            for (var i = 2; i < 1_000_000; i++)
+            var maxLengthGenerator = 0;
+            var maxLength = 0;
+            var sequenceMap = new Dictionary<long, List<long>>();
+            for (var i = 2; i < TopOfRange; i++)
             {
                 if (sequenceMap.ContainsKey(i))
+                {
+                    if (sequenceMap[i].Count > maxLength)
+                    {
+                        maxLength = sequenceMap[i].Count;
+                        maxLengthGenerator = i;
+                    }
+
                     continue;
+                }
+
                 var length = MathLib.GetCollatzSequence(i, sequenceMap).Count;
-                if (length > max)
-                    max = length;
+                if (length > maxLength)
+                {
+                    maxLength = length;
+                    maxLengthGenerator = i;
+                }
             }
-            return 0;
+            
+            return maxLengthGenerator;
         }
 
 

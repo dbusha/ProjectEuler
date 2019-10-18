@@ -27,6 +27,9 @@
 
     <ItemGroup>
       <None Remove="obj\**" />
+      <None Update="EulerTests.xunit.runner.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
     <ItemGroup>

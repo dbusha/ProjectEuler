@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using System.Linq;
 using ProjectEuler;
+using ProjectEuler.Maths;
 using Xunit;
 
 namespace EulerTests
@@ -55,44 +57,43 @@ namespace EulerTests
 
 
         [Theory]
-        [InlineData(23)]
-        [InlineData(25)]
-        [InlineData(33)]
-        [InlineData(99)]
-        [InlineData(121)]
-        [InlineData(123)]
-        [InlineData(111)]
-        public void AreFactorsTest(int value)
+        [InlineData(23, 2)]
+        [InlineData(25, 3)]
+        [InlineData(33, 4)]
+        [InlineData(99, 6)]
+        [InlineData(121, 3)]
+        [InlineData(123, 4)]
+        [InlineData(111, 4)]
+        public void GetFactorsTest(int value, int factorCount)
         {
-            var factors = MathLib.GetFactors(value);
+            var factors = MathLib.GetFactors(value).ToList();
+            Assert.Equal(factorCount, factors.Count());
             foreach (var factor in factors)
                 Assert.True(value % factor == 0);
         }
 
 
-        [Fact]
-        public void BigIntAddTest()
+        [Theory]
+        [InlineData("3", "4", "7")]
+        [InlineData("4", "6", "10")]
+        [InlineData("89", "99", "185")]
+        public void BigIntAddTest(string value1, string value2, string result)
         {
-            var int1 = new BigInt("3");
-            var int2 = new BigInt("4");
-            Assert.Equal("7", int1.Add(int2).ToString());
-            
-            var int3 = new BigInt("4");
-            var int4 = new BigInt("6");
-            Assert.Equal("10", int3.Add(int4).ToString());
-            
-            var int6 = new BigInt("99");
-            var int5 = new BigInt("86");
-            Assert.Equal("185", int5.Add(int6).ToString());
+            var int1 = new BigInt(value1);
+            var int2 = new BigInt(value2);
+            Assert.Equal(result, int1.Add(int2).ToString());
         }
         
         
-        [Fact]
-        public void BigIntEqualsTest()
+        [Theory]
+        [InlineData("3", "03", "7")]
+        [InlineData("03", "3", "10")]
+        [InlineData("11", "11", "185")]
+        public void BigIntEqualsTest(string value1, string value2, string value3)
         {
-            var int1 = new BigInt("099");
-            var int2 = new BigInt("99");
-            var int3 = new BigInt("88");
+            var int1 = new BigInt(value1);
+            var int2 = new BigInt(value2);
+            var int3 = new BigInt(value3);
             var int4 = int2;
             Assert.True(int1 == int2);
             Assert.True(int1 != int3);
@@ -101,11 +102,23 @@ namespace EulerTests
 
 
         [Theory]
+        [InlineData("11","3","33")]
+        [InlineData("3","11","33")]
+        public void BigIntMultiplyTest(string value1, string value2, string result)
+        {
+            var int1 = new BigInt(value1);
+            var int2 = new BigInt(value2);
+            var int3 = int1.Multiply(int2);
+            Assert.True(int3 == new BigInt(result));
+        }
+        
+        
+        [Theory]
         [InlineData(13, 10)]
         [InlineData(25, 24)]
         public void CollatzSequenceTest(int value, int length)
         {
-            var lookup = new Dictionary<int, List<int>>();
+            var lookup = new Dictionary<long, List<long>>();
             var result = MathLib.GetCollatzSequence(value, lookup);
             Assert.Equal(length, result.Count);
         }

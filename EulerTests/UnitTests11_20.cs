@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 using ProjectEuler;
+using ProjectEuler.Maths;
 using Xunit;
 
 namespace EulerTests
@@ -47,7 +48,25 @@ namespace EulerTests
         {
             var p = new Problem14();
             var value = p.Solution1();
-            Assert.Equal(0, value);
+            Assert.Equal(837799, value);
+        }
+        
+        
+        [Fact]
+        public void Test15()
+        {
+            var p = new Problem15();
+            var value = p.Solution1(20);
+            Assert.Equal(137846528820, value);
+        }
+        
+        
+        [Fact]
+        public void Test15_2()
+        {
+            var p = new Problem15();
+            var value = p.Solution2(20);
+            Assert.Equal(137846528820, value);
         }
         
         [Fact]
@@ -55,6 +74,7 @@ namespace EulerTests
         {
             var p = new Problem20();
             p.Solution1();
+            
         }
     }
 }

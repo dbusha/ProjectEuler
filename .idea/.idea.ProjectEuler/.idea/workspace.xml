@@ -2,158 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c18b6ef8-9707-462c-a9dc-1a18f9e08ea5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ProjectEuler/BigInt.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EulerTests/EulerTests.xunit.runner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEuler/Maths/PascalsTriangle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEuler/Node.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectEuler/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectEuler/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectEuler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectEuler/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EulerRunner/obj/Debug/netcoreapp2.0/EulerRunner.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EulerRunner/obj/Debug/netcoreapp2.0/EulerRunner.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EulerRunner/obj/Debug/netcoreapp2.0/EulerRunner.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EulerRunner/obj/Debug/netcoreapp2.0/EulerRunner.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EulerRunner/obj/EulerRunner.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EulerRunner/obj/EulerRunner.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EulerRunner/obj/EulerRunner.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/EulerRunner/obj/EulerRunner.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EulerRunner/obj/EulerRunner.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/EulerRunner/obj/EulerRunner.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EulerRunner/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EulerRunner/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EulerRunner/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EulerRunner/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EulerTests/EulerTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EulerTests/EulerTests.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EulerTests/MathLibTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EulerTests/MathLibTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EulerTests/UnitTests11_20.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EulerTests/UnitTests11_20.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler/MathLib.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler/MathLib.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler/BigInt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler/Maths/BigInt.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler/MathLib.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler/Maths/MathLib.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem10.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem10.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem3.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem5.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem5.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem7.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem7.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem12.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem12.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem13.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem13.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem14.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem14.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem15.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem15.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem14.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-              <folding>
-                <marker date="1557021131122" expanded="true" signature="6:47" ph="..." />
-                <marker date="1557021131122" expanded="true" signature="71:1364" ph="{...}" />
-                <marker date="1557021131122" expanded="true" signature="100:1362" ph="{...}" />
-                <marker date="1557021131122" expanded="true" signature="115:880" ph="/* The following iterative sequence is defined for the set of positive integers: ... */" />
-                <marker date="1557021131122" expanded="true" signature="913:1345" ph="{...}" />
-                <marker date="1557021131122" expanded="true" signature="1060:1313" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProjectEuler/MathLib.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="58" column="51" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
-              <folding>
-                <marker date="1557020911643" expanded="false" signature="6:102" ph="..." />
-                <marker date="1557020911643" expanded="true" signature="126:1882" ph="{...}" />
-                <marker date="1557020911643" expanded="true" signature="153:1880" ph="{...}" />
-                <marker date="1557020911643" expanded="true" signature="225:554" ph="{...}" />
-                <marker date="1557020911643" expanded="true" signature="324:446" ph="{...}" />
-                <marker date="1557020911643" expanded="true" signature="611:811" ph="{...}" />
-                <marker date="1557020911643" expanded="true" signature="677:775" ph="{...}" />
-                <marker date="1557020911643" expanded="true" signature="884:1156" ph="{...}" />
-                <marker date="1557020911643" expanded="true" signature="1008:1117" ph="{...}" />
-                <marker date="1557020911643" expanded="true" signature="1276:1738" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EulerTests/UnitTests11_20.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <marker date="1557021629473" expanded="true" signature="6:65" ph="..." />
-                <marker date="1557021629473" expanded="true" signature="87:1440" ph="{...}" />
-                <marker date="1557021629473" expanded="true" signature="121:1438" ph="{...}" />
-                <marker date="1557021629473" expanded="true" signature="171:548" ph="{...}" />
-                <marker date="1557021629473" expanded="true" signature="601:840" ph="{...}" />
-                <marker date="1557021629473" expanded="true" signature="902:1117" ph="{...}" />
-                <marker date="1557021629473" expanded="true" signature="1163:1295" ph="{...}" />
-                <marker date="1557021629473" expanded="true" signature="1348:1432" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem12.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-              <folding>
-                <marker date="1557022409669" expanded="true" signature="42:1265" ph="{...}" />
-                <marker date="1557022409669" expanded="true" signature="71:1263" ph="{...}" />
-                <marker date="1557022409669" expanded="true" signature="86:862" ph="/* The sequence of triangle numbers is generated by adding the natural numbers. So the 7th triangle number ... */" />
-                <marker date="1557022409669" expanded="true" signature="895:1257" ph="{...}" />
-                <marker date="1557022409669" expanded="true" signature="996:1247" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/899ABC88-C3F1-4C7D-B7BA-444AD3BDFC76/f9/577ac2dc/RuntimeModule.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EulerTests/MathLibTests.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1760">
-              <caret line="112" column="1" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
-              <folding>
-                <marker date="1557021489718" expanded="true" signature="6:66" ph="..." />
-                <marker date="1557021489718" expanded="true" signature="88:2905" ph="{...}" />
-                <marker date="1557021489718" expanded="true" signature="120:2903" ph="{...}" />
-                <marker date="1557021489718" expanded="true" signature="407:476" ph="{...}" />
-                <marker date="1557021489718" expanded="true" signature="779:849" ph="{...}" />
-                <marker date="1557021489718" expanded="true" signature="1097:1272" ph="{...}" />
-                <marker date="1557021489718" expanded="true" signature="1515:1682" ph="{...}" />
-                <marker date="1557021489718" expanded="true" signature="1735:2200" ph="{...}" />
-                <marker date="1557021489718" expanded="true" signature="2272:2562" ph="{...}" />
-                <marker date="1557021489718" expanded="true" signature="2702:2897" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProjectEuler/BigInt.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1557020210829" expanded="false" signature="6:32" ph="..." />
-                <marker date="1557020210829" expanded="true" signature="56:3174" ph="{...}" />
-                <marker date="1557020210829" expanded="true" signature="82:3172" ph="{...}" />
-                <marker date="1557020210829" expanded="true" signature="156:204" ph="{...}" />
-                <marker date="1557020210829" expanded="true" signature="242:463" ph="{...}" />
-                <marker date="1557020210829" expanded="true" signature="361:453" ph="{...}" />
-                <marker date="1557020210829" expanded="true" signature="512:1635" ph="{...}" />
-                <marker date="1557020210829" expanded="true" signature="925:1334" ph="{...}" />
-                <marker date="1557020210829" expanded="true" signature="1705:1837" ph="{...}" />
-                <marker date="1557020210829" expanded="true" signature="1887:2352" ph="{...}" />
-                <marker date="1557020210829" expanded="true" signature="2114:2316" ph="{...}" />
-                <marker date="1557020210829" expanded="true" signature="2396:2441" ph="{...}" />
-                <marker date="1557020210829" expanded="true" signature="2485:2667" ph="{...}" />
-                <marker date="1557020210829" expanded="true" signature="2736:3000" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -165,33 +43,43 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ProjectEuler/BigInt.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectEuler/MathLib.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EulerTests/UnitTests11_20.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EulerTests/UnitTests01_10.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EulerTests/MathLibTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem6.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/899ABC88-C3F1-4C7D-B7BA-444AD3BDFC76/f9/577ac2dc/RuntimeModule.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem5.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem3.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem2.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem10.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem7.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem8.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem9.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem4.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem11.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem15.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem16.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem17.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem18.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem19.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem12.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem13.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem14.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem20.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/899ABC88-C3F1-4C7D-B7BA-444AD3BDFC76/79/c6475a42/Interop.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem19.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51C22D6F-BC23-41DD-8525-4DF19ED44462/b5/eb5d44a9/Number.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Maths/PascalsTriangle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51C22D6F-BC23-41DD-8525-4DF19ED44462/74/463c8b75/FileStream.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EulerTests/UnitTests01_10.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51C22D6F-BC23-41DD-8525-4DF19ED44462/67/caec6a30/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EulerTests/MathLibTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/724F386D-8F5B-4395-A7FA-46C7A3A38A2A/fd/a68b803f/ExecutionTimer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Maths/BigInt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Maths/MathLib.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2B362E6A-D5E2-4739-94C0-FDEB6DAFC56C/7b/59b336b6/ExceptionAggregator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51C22D6F-BC23-41DD-8525-4DF19ED44462/5d/fa211515/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51C22D6F-BC23-41DD-8525-4DF19ED44462/4f/d16eeab2/RuntimeMethodInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/103A49C4-E044-470F-BF55-73547C850A02/66/a441fca3/Assert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/724F386D-8F5B-4395-A7FA-46C7A3A38A2A/12/f7a475f3/TestInvoker`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/.Rider2019.1/config/resharper-host/DecompilerCache/decompiler/724F386D-8F5B-4395-A7FA-46C7A3A38A2A/12/f7a475f3/TestInvoker`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem8.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem4.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem5.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EulerTests/UnitTests11_20.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem7.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Node.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem9.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem10.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem6.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem14.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem16.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem11.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem18.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem13.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem15.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -224,75 +112,45 @@
         <option value="$PROJECT_DIR$/EulerTests/UnitTests01_10.cs" />
         <option value="$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem4.cs" />
         <option value="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem11.cs" />
-        <option value="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem15.cs" />
         <option value="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem16.cs" />
         <option value="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem17.cs" />
         <option value="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem18.cs" />
         <option value="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem19.cs" />
         <option value="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem20.cs" />
         <option value="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem13.cs" />
-        <option value="$PROJECT_DIR$/ProjectEuler/MathLib.cs" />
-        <option value="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem14.cs" />
-        <option value="$PROJECT_DIR$/EulerTests/MathLibTests.cs" />
-        <option value="$PROJECT_DIR$/EulerTests/UnitTests11_20.cs" />
         <option value="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem12.cs" />
+        <option value="$PROJECT_DIR$/EulerTests/EulerTests.csproj" />
+        <option value="$PROJECT_DIR$/EulerTests/xunit.runner.json" />
+        <option value="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem14.cs" />
+        <option value="$PROJECT_DIR$/ProjectEuler/Tree.cs" />
+        <option value="$PROJECT_DIR$/ProjectEuler/BigInt.cs" />
+        <option value="$PROJECT_DIR$/ProjectEuler/MathLib.cs" />
+        <option value="$PROJECT_DIR$/ProjectEuler/TreeNode.cs" />
+        <option value="$PROJECT_DIR$/ProjectEuler/Node.cs" />
+        <option value="$PROJECT_DIR$/ProjectEuler/Math/PascalsTriangle.cs" />
+        <option value="$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem3.cs" />
+        <option value="$PROJECT_DIR$/ProjectEuler/Maths/PascalsTriangle.cs" />
+        <option value="$PROJECT_DIR$/EulerTests/UnitTests11_20.cs" />
+        <option value="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem15.cs" />
+        <option value="$PROJECT_DIR$/ProjectEuler/Maths/BigInt.cs" />
+        <option value="$PROJECT_DIR$/EulerTests/MathLibTests.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="23" />
-    <option name="width" value="1764" />
-    <option name="height" value="1111" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="SolutionExplorer" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ProjectEuler" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ProjectEuler" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ProjectEuler" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ProjectEuler" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ProjectEuler" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="HelperFiles" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ProjectEuler" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ProjectEuler" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Problems_11-20" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1REdQCKAnry8F0uGzUkLzlHsZsd" />
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
+    <property name="settings.editor.selected.configurable" value="ParameterNameHintsOptionsId" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -339,252 +197,110 @@
       <workItem from="1555174712381" duration="68378000" />
       <workItem from="1557019332249" duration="2436000" />
       <workItem from="1557021887043" duration="599000" />
+      <workItem from="1557459529009" duration="10424000" />
+      <workItem from="1558294131507" duration="3786000" />
+      <workItem from="1558315837785" duration="597000" />
+      <workItem from="1569236184856" duration="65000" />
+      <workItem from="1569237230702" duration="12048000" />
+      <workItem from="1570377285916" duration="4394000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71413000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="40" y="23" width="1400" height="877" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18335788" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293011" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992636" weight="0.3987261" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32924336" />
-      <window_info anchor="bottom" id="Performance Profiler" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info active="true" anchor="bottom" id="Unit Tests" order="12" sideWeight="0.49852726" visible="true" weight="0.24840765" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.24539877" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50073636" side_tool="true" weight="0.3987261" />
-      <window_info anchor="bottom" id="Build" order="15" weight="0.32866243" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" visible="true" weight="0.24521355" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/EulerTests/MathLibTests.cs</url>
-          <line>99</line>
-          <properties documentPath="$PROJECT_DIR$/EulerTests/MathLibTests.cs" initialLine="99">
+          <url>file://$PROJECT_DIR$/ProjectEuler/Node.cs</url>
+          <line>32</line>
+          <properties documentPath="$PROJECT_DIR$/ProjectEuler/Node.cs" initialLine="32">
             <startOffsets>
-              <option value="2561" />
+              <option value="851" />
             </startOffsets>
             <endOffsets>
-              <option value="2562" />
+              <option value="865" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="55" />
+          <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/EulerTests/UnitTests11_20.cs</url>
-          <line>47</line>
-          <properties documentPath="$PROJECT_DIR$/EulerTests/UnitTests11_20.cs" initialLine="47">
+          <url>file://$PROJECT_DIR$/ProjectEuler/Maths/PascalsTriangle.cs</url>
+          <line>56</line>
+          <properties documentPath="$PROJECT_DIR$/ProjectEuler/Maths/PascalsTriangle.cs" initialLine="56">
             <startOffsets>
-              <option value="1186" />
+              <option value="1393" />
             </startOffsets>
             <endOffsets>
-              <option value="1210" />
+              <option value="1407" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="58" />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ProjectEuler/Maths/PascalsTriangle.cs</url>
+          <line>55</line>
+          <properties documentPath="$PROJECT_DIR$/ProjectEuler/Maths/PascalsTriangle.cs" initialLine="55">
+            <startOffsets>
+              <option value="1338" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1380" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem15.cs</url>
+          <line>53</line>
+          <properties documentPath="$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem15.cs" initialLine="46">
+            <startOffsets>
+              <option value="1611" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1642" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/EulerTests/MathLibTests.cs</url>
+          <line>111</line>
+          <properties documentPath="$PROJECT_DIR$/EulerTests/MathLibTests.cs" initialLine="111">
+            <startOffsets>
+              <option value="3063" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3103" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="114" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint enabled="true" type="DotNet Exception Breakpoints">
-          <properties />
+          <properties justMyCode="true" />
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="breakpointCondition">
-      <expression>
-        <expression-string>value == 0</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem6.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem5.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem3.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem2.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem1.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51C22D6F-BC23-41DD-8525-4DF19ED44462/74/463c8b75/FileStream.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem7.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem8.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem9.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/724F386D-8F5B-4395-A7FA-46C7A3A38A2A/fd/a68b803f/ExecutionTimer.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51C22D6F-BC23-41DD-8525-4DF19ED44462/5d/fa211515/ExceptionDispatchInfo.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2B362E6A-D5E2-4739-94C0-FDEB6DAFC56C/7b/59b336b6/ExceptionAggregator.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/724F386D-8F5B-4395-A7FA-46C7A3A38A2A/12/f7a475f3/TestInvoker`1.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51C22D6F-BC23-41DD-8525-4DF19ED44462/b5/eb5d44a9/Number.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem10.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/HelperFiles/Problem13_numbers.txt" />
-    <entry file="file://$PROJECT_DIR$/EulerTests/UnitTests01_10.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_01-10/Problem4.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem11.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem15.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem16.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem17.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem18.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem19.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem20.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/103A49C4-E044-470F-BF55-73547C850A02/66/a441fca3/Assert.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51C22D6F-BC23-41DD-8525-4DF19ED44462/4f/d16eeab2/RuntimeMethodInfo.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem13.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/MathLib.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="58" column="51" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
-          <folding>
-            <marker date="1557020911643" expanded="false" signature="6:102" ph="..." />
-            <marker date="1557020911643" expanded="true" signature="126:1882" ph="{...}" />
-            <marker date="1557020911643" expanded="true" signature="153:1880" ph="{...}" />
-            <marker date="1557020911643" expanded="true" signature="225:554" ph="{...}" />
-            <marker date="1557020911643" expanded="true" signature="324:446" ph="{...}" />
-            <marker date="1557020911643" expanded="true" signature="611:811" ph="{...}" />
-            <marker date="1557020911643" expanded="true" signature="677:775" ph="{...}" />
-            <marker date="1557020911643" expanded="true" signature="884:1156" ph="{...}" />
-            <marker date="1557020911643" expanded="true" signature="1008:1117" ph="{...}" />
-            <marker date="1557020911643" expanded="true" signature="1276:1738" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EulerTests/MathLibTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="112" column="1" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
-          <folding>
-            <marker date="1557021489718" expanded="true" signature="6:66" ph="..." />
-            <marker date="1557021489718" expanded="true" signature="88:2905" ph="{...}" />
-            <marker date="1557021489718" expanded="true" signature="120:2903" ph="{...}" />
-            <marker date="1557021489718" expanded="true" signature="407:476" ph="{...}" />
-            <marker date="1557021489718" expanded="true" signature="779:849" ph="{...}" />
-            <marker date="1557021489718" expanded="true" signature="1097:1272" ph="{...}" />
-            <marker date="1557021489718" expanded="true" signature="1515:1682" ph="{...}" />
-            <marker date="1557021489718" expanded="true" signature="1735:2200" ph="{...}" />
-            <marker date="1557021489718" expanded="true" signature="2272:2562" ph="{...}" />
-            <marker date="1557021489718" expanded="true" signature="2702:2897" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/BigInt.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1557020210829" expanded="false" signature="6:32" ph="..." />
-            <marker date="1557020210829" expanded="true" signature="56:3174" ph="{...}" />
-            <marker date="1557020210829" expanded="true" signature="82:3172" ph="{...}" />
-            <marker date="1557020210829" expanded="true" signature="156:204" ph="{...}" />
-            <marker date="1557020210829" expanded="true" signature="242:463" ph="{...}" />
-            <marker date="1557020210829" expanded="true" signature="361:453" ph="{...}" />
-            <marker date="1557020210829" expanded="true" signature="512:1635" ph="{...}" />
-            <marker date="1557020210829" expanded="true" signature="925:1334" ph="{...}" />
-            <marker date="1557020210829" expanded="true" signature="1705:1837" ph="{...}" />
-            <marker date="1557020210829" expanded="true" signature="1887:2352" ph="{...}" />
-            <marker date="1557020210829" expanded="true" signature="2114:2316" ph="{...}" />
-            <marker date="1557020210829" expanded="true" signature="2396:2441" ph="{...}" />
-            <marker date="1557020210829" expanded="true" signature="2485:2667" ph="{...}" />
-            <marker date="1557020210829" expanded="true" signature="2736:3000" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/899ABC88-C3F1-4C7D-B7BA-444AD3BDFC76/f9/577ac2dc/RuntimeModule.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/899ABC88-C3F1-4C7D-B7BA-444AD3BDFC76/79/c6475a42/Interop.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem12.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-          <folding>
-            <marker date="1557022409669" expanded="true" signature="42:1265" ph="{...}" />
-            <marker date="1557022409669" expanded="true" signature="71:1263" ph="{...}" />
-            <marker date="1557022409669" expanded="true" signature="86:862" ph="/* The sequence of triangle numbers is generated by adding the natural numbers. So the 7th triangle number ... */" />
-            <marker date="1557022409669" expanded="true" signature="895:1257" ph="{...}" />
-            <marker date="1557022409669" expanded="true" signature="996:1247" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectEuler/Problems_11-20/Problem14.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-          <folding>
-            <marker date="1557021131122" expanded="true" signature="6:47" ph="..." />
-            <marker date="1557021131122" expanded="true" signature="71:1364" ph="{...}" />
-            <marker date="1557021131122" expanded="true" signature="100:1362" ph="{...}" />
-            <marker date="1557021131122" expanded="true" signature="115:880" ph="/* The following iterative sequence is defined for the set of positive integers: ... */" />
-            <marker date="1557021131122" expanded="true" signature="913:1345" ph="{...}" />
-            <marker date="1557021131122" expanded="true" signature="1060:1313" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EulerTests/UnitTests11_20.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <marker date="1557021629473" expanded="true" signature="6:65" ph="..." />
-            <marker date="1557021629473" expanded="true" signature="87:1440" ph="{...}" />
-            <marker date="1557021629473" expanded="true" signature="121:1438" ph="{...}" />
-            <marker date="1557021629473" expanded="true" signature="171:548" ph="{...}" />
-            <marker date="1557021629473" expanded="true" signature="601:840" ph="{...}" />
-            <marker date="1557021629473" expanded="true" signature="902:1117" ph="{...}" />
-            <marker date="1557021629473" expanded="true" signature="1163:1295" ph="{...}" />
-            <marker date="1557021629473" expanded="true" signature="1348:1432" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
